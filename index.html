@@ -39,6 +39,16 @@
       <strong>Altitude: </strong><span id="alt"></span> meters
     </div>
   </div>
+
+  <!-- Include charts.js script -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- Include our charts.js file -->
+  <script src="charts.js"></script>
+  <script>
+    drawCustomGraph('co2-graph');
+    drawCustomGraph('temp-graph');
+    drawCustomGraph('alt-graph');
+  </script>
 </body>
 </html>
 
